@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  font-size: 1.6rem;
+  background: tomato;
+  background: -webkit-linear-gradient(135deg, #2d3a62, #55375e);
+  background: -o-linear-gradient(135deg, #2d3a62, #55375e);
+  background: -moz-linear-gradient(135deg, #2d3a62, #55375e);
+  background-image: linear-gradient(135deg, #2d3a62, #55375e);
+}
+
+.download-wrapper {
+  cursor: pointer;
+  margin-top: -100px;
+}
+
+.download-wrapper:hover {
+  opacity: 0.7;
+}
+
+.download-wrapper i.material-icons {
+  font-size: 30px;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  margin: auto;
+  display: block;
+}
+
+.download-wrapper p {
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  height: 30px;
+  font-size: 22px;
+  font-family: "Abel", sans-serif;
+}
